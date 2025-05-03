@@ -45,8 +45,20 @@ main.scroll-x {
 
 :not(header) > h2 {
     padding-bottom: 5px;
-    margin-bottom: 1ex;
+    margin-bottom: 0.5ex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+h2 + p, h3 + p {
+    margin-top: 0.5ex;
 }
 
 ul {

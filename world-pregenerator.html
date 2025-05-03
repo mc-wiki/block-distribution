@@ -16,24 +16,24 @@
             <p>If you have any questions or suggestions, feel free to <a href="mailto:mc.meeples10@gmail.com">contact me</a>.</p>
             <h2 id="downloads">Downloads</h2>
             <ul>
+                <li><a href="./assets/world-pregenerator-1.21.5.zip">world-pregenerator-1.21.5.zip</a> (JE 1.21.5)</li>
                 <li><a href="./assets/world-pregenerator-1.20.2.zip">world-pregenerator-1.20.2.zip</a> (JE 1.20.2)</li>
                 <li><a href="./assets/world-pregenerator-1.20.zip">world-pregenerator-1.20.zip</a> (JE 1.20)</li>
                 <li><a href="./assets/world-pregenerator-1.19.4.zip">world-pregenerator-1.19.4.zip</a> (JE 1.19.4)</li>
                 <li><a href="./assets/world-pregenerator-1.18.zip">world-pregenerator-1.18.zip</a> (JE 1.18)</li>
                 <li><a href="./assets/world-pregenerator-1.17.zip">world-pregenerator-1.17.zip</a> (JE 1.17)</li>
             </ul>
-            <h2 id="how-to">How to use the datapack</h2>
+            <h2 id="how-to">Using the datapack</h2>
             <h3>Installation</h3>
             <p>To add the datapack to a new world during world creation, click the <strong>Data Packs</strong> button, then the <strong>Open Pack Folder</strong> button, and copy the datapack into the folder.</p>
-            <p>If you would like to add the datapack to an existing world, simply copy the datapack into your world's <code>datapacks</code> folder (<code>.minecraft/saves/[name]/datapacks</code>).</p>
+            <p>If you would like to add the datapack to an existing world, copy the datapack into your world's <code>datapacks</code> folder (<code>.minecraft/saves/[name]/datapacks</code>).</p>
             <h3>After installation</h3>
-            <p>If the datapack has been installed correctly, a chat message should appear when joining the world (if the pack was added on world creation) or after using the <code>/reload</code> command (if the pack was added to an existing world). If no message appeared in chat, run the following command: <code>/function wpg:init</code></p>
-            <p>The datapack can be operated either using the aforementioned chat message or using functions. The available functions are as follows:</p>
+            <p>After installing the datapack, a chat message will appear when joining the world (if the pack was added on world creation) or after using the <code>/reload</code> command (if the pack was added to an existing world). If no message appeared in chat, run the following command: <code>/function wpg:init</code></p>
+            <p>The datapack can be operated using the clickable text in the chat message or using the functions below.</p>
             <table>
-                <tr><td><code>/function wpg:init</code></td><td>If the datapack failed to be initialized automatically, use this to initialize it manually.</td></tr>
+                <tr><th>Function</th><th>Usage</th></tr>
                 <tr><td><code>/function wpg:start</code></td><td>Start the world pregeneration process.</td></tr>
-                <tr><td><code>/function wpg:reset</code></td><td>Stop the world pregeneration process and reset its progress.</td></tr>
-                <tr><td><code>/function wpg:uninstall</code>&nbsp;</td><td>Remove the datapack's scoreboard objective. The datapack must be removed from the world's <code>datapacks</code> folder in order to fully uninstall it.</td></tr>
+                <tr><td><code>/function wpg:stop</code></td><td>Stop the world pregeneration process. Use <code>/function wpg:start</code> to resume.</td></tr>
             </table>
         </main>
         <footer>
